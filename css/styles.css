@@ -1,0 +1,60 @@
+/* цвет основного текста #212121; */
+/* вторичный цвет текста #757575;*/
+/* белый  */
+/* акцент rgba(0, 0, 0, 0.15); */
+/* вторичный цвет фона #F5F4FA;*/
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: 
+    #2196F3;
+    --primary-white-color: #F5F5F5
+}
+/* Стилі для index.html */
+.page {
+    color: var(--title-text-color);
+    background-color: var(--primary-white-color);    
+}
+.list{
+    list-style: none;
+}
+/* Стилі лого*/
+.logo {
+    color: var(--title-text-color);
+}
+.logo:hover {
+    color: var(--accent-color)
+}
+
+
+/* Cилки шапки */
+.site-nav {
+    color: var(--title-text-color);
+  }
+.site-nav:hover {
+    color: var(--accent-color);
+  }
+.site-nav:focus{
+    color: var(--accent-color);
+}
+  
+.mail {
+    color: #2196F3;;
+}
+.tel {
+    color: #757575;;
+}
+
+
+.tel:hover {
+    color: var(--accent-color);
+}
+
+.link:hover {
+    color: var(--accent-color);
+}
+
+
+
+
+/* стилі для portfolio.html */
