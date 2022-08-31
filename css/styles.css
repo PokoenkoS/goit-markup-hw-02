@@ -5,9 +5,12 @@
     --primary-text-color: #212121;
     --secondary-text-color: #757575;
     --accent-color: #2196F3;
+    --button-background-color: #F5F4FA;
+    --text-color-white:  #FFFFFF;
+    --text-color-black: #000000;
     }
 .page {
-    background-color: #F5F5F5
+    background-color: var(--primary-white-color);
     color var(--secondary-text-color) ;
 }
 /* Стилі для index.html */
@@ -17,7 +20,7 @@
 }
 /* Стилі лого*/
 .logo {
-    color: #000000;
+    color: var(--text-color-black);
 }
 .logo:hover {
     color: var(--accent-color);
@@ -39,12 +42,6 @@
   }
 /* Стилі контактів */
 
-.mail {
-    color: var(--accent-color);
-}
-.tel {
-    color: var(--secondary-text-color);
-}
  .site-contact .link:hover,
  .site-contact .link:focus {
     color: var(--accent-color);
@@ -54,7 +51,7 @@
    background: var(--primary-text-color);
 }
 .title-hero {
-    color: #FFFFFF;;
+    color: var(--text-color-white);
 }
 
 /* Секції */
@@ -64,6 +61,7 @@
 .section-title {
     color: var(--primary-text-color);
 }
+
 .site-adress .link:hover, 
 .site-adress .link:focus {
     color: var(--accent-color);
@@ -71,3 +69,7 @@
 
 
 /* стилі для portfolio.html */
+.button {
+    color: var(--primary-text-color);
+    background-color: var(--button-background-color);
+}
