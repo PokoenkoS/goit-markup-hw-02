@@ -50,16 +50,20 @@ color: var(--accent-color);
   
 .site-contact .link {
 text-decoration: none;
+color: var(--secondary-color);
 }
  .site-contact .link:hover,
  .site-contact .link:focus {
 color: var(--accent-color);
   }
-  .tel {
+ .tel {
 color: var(--secondary-text-color);
 text-decoration: none;
   }
-
+.tel:hover,
+.tel:focus {
+  color: var(--accent-color);
+}
 
 /* Стилі лого*/
 .logo {
@@ -144,6 +148,7 @@ line-height: 1.88;
 /* Footer */
 .footer {
 background: var(--secondary-color);
+
 }
 .footer-logo {
 color: var(--text-color-white);
@@ -153,20 +158,34 @@ font-size: 26px;
 line-height: 1.19;
 text-decoration: none;
 }
+.footer-logo:hover,
+.footer-logo:focus{
+color: var(--accent-color);
+}
 .site-adress .link{
 text-decoration: none;
 color: var(--text-color-white);
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
+font-style: normal;
 }
 
 .site-adress .link:hover, 
 .site-adress .link:focus {
 color: var(--accent-color);
 }
-
-
+.link-contact {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+color: rgba(255, 255, 255, 0.6)
+}
+.link-contact:hover,
+.link-contact:focus {
+  color:  var(--accent-color);
+}
 /* стилі для portfolio.html */
 
 .main {
@@ -183,7 +202,8 @@ cursor: pointer;
 }
 .button:hover,
 .button:focus {
-color: var(--accent-color);    
+color: var(--text-color-white);
+  background-color: var(--accent-color);
 }
 .signature {
 color: var(--primary-text-color);
